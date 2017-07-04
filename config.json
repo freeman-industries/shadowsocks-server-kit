@@ -1,0 +1,7 @@
+{
+	"port_password": {
+		"443": "changethispassword"
+	},
+	"method": "aes-128-cfb-auth",
+	"timeout": 600
+}
