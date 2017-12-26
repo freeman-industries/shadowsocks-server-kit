@@ -4,10 +4,11 @@ by Freeman
 
 # Requirements
 
-This software is designed to be installed onto a Ubuntu 14.04 LTS system. You can use a different UNIX system, but the steps for installing all dependencies will vary.
+This software is designed to be installed onto a Ubuntu 16.04 LTS system. You can use a different UNIX system, but the steps for installing all dependencies will vary.
+
+Remember to run `sudo apt update` first on a fresh server.
 
 - Git (`sudo apt install git`)
-- Upstart (warning: not available on Ubuntu 15+)
 - Shadowsocks-libev (`sudo apt install shadowsocks-libev`)
 
 Place all the files in this package into a directory called `shadowsocks` in your home folder. For example, `~/shadowsocks/README.md` or `/home/ubuntu/shadowsocks/README.md`.
@@ -15,8 +16,6 @@ Place all the files in this package into a directory called `shadowsocks` in you
 # Steps to get this working
 
 
-
-- Install go-shadowsocks2 by running `GOPATH=$(readlink -e ./) go get -u -v github.com/shadowsocks/go-shadowsocks2`. Run this in the working directory (assumed `~/shadowsocks`).
 
 - Run `chmod +x shadowsocks-server-linux64-1.1.5`
 - Edit `shadowsocks.conf` to point to this directory, and also replacing your username.
