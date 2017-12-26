@@ -16,3 +16,11 @@ Remember to run `sudo apt update` first on a fresh server.
 - Run `sudo cp config.json /etc/shadowsocks-libev/config.json`.
 - You can now start Shadowsocks with `sudo systemctl start shadowsocks-libev`.
 - If you want to stop the service, or restart, you can run `sudo systemctl stop shadowsocks-libev`.
+
+# Connecting
+
+Use any Shadowsocks client for your platform.
+
+When connecting, ensure the port and encryption methods match `config.json`.
+
+By default, the port is `443` and the encryption method is `chacha20-ietf-poly1305`.
