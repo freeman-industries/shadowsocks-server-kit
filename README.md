@@ -4,7 +4,7 @@ by Freeman
 
 # Requirements
 
-This software is designed to be installed onto a Ubuntu 16.04 LTS system. You can use a different UNIX system, but the steps for installing all dependencies will vary.
+This software is designed to be installed onto a Ubuntu 16.10 LTS system. You can use a different UNIX system, but the steps for installing all dependencies will vary.
 
 Remember to run `sudo apt update` first on a fresh server.
 
