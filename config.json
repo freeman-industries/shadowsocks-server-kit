@@ -1,7 +1,8 @@
 {
-	"port_password": {
-		"443": "changethispassword"
-	},
-	"method": "aes-128-cfb-auth",
-	"timeout": 600
+    "server":"127.0.0.1",
+    "server_port":443,
+    "local_port":1080,
+    "password":"changethispassword",
+    "timeout":60,
+    "method":"chacha20-ietf-poly1305"
 }
