@@ -4,22 +4,17 @@ by Freeman
 
 # Requirements
 
-This system is designed to be used with Ubuntu 14.04 LTS. You can use a different UNIX system, but the steps for installing all dependencies will vary.
+This software is designed to be installed onto a Ubuntu 14.04 LTS system. You can use a different UNIX system, but the steps for installing all dependencies will vary.
 
-- Git (`sudo apt-get install git`)
+- Git (`sudo apt install git`)
 - Upstart (warning: not available on Ubuntu 15+)
-- Go
+- Shadowsocks-libev (`sudo apt install shadowsocks-libev`)
 
 Place all the files in this package into a directory called `shadowsocks` in your home folder. For example, `~/shadowsocks/README.md` or `/home/ubuntu/shadowsocks/README.md`.
 
-On Ubuntu, to install Go you can use this snippet on Ubuntu:
-```
-sudo add-apt-repository ppa:gophers/archive
-sudo apt update
-sudo apt-get install golang-1.9-go
-```
-
 # Steps to get this working
+
+
 
 - Install go-shadowsocks2 by running `GOPATH=$(readlink -e ./) go get -u -v github.com/shadowsocks/go-shadowsocks2`. Run this in the working directory (assumed `~/shadowsocks`).
 
