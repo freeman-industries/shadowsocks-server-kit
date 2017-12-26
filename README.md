@@ -17,7 +17,7 @@ sudo apt-get install golang-1.9-go
 
 # Steps to get this working
 
-- Install go-shadowsocks2 by running `go get -u -v github.com/shadowsocks/go-shadowsocks2`.
+- Install go-shadowsocks2 by running `sh install-shadowsocks.sh`.
 
 - Run `chmod +x shadowsocks-server-linux64-1.1.5`
 - Edit `shadowsocks.conf` to point to this directory, and also replacing your username.
